@@ -10,3 +10,5 @@ bin/
 *.iml
 #settings
 .settings
+
+datasource.properties

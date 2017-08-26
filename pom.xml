@@ -2,10 +2,10 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <groupId>cn.igeek</groupId>
-  <artifactId>payment</artifactId>
+  <artifactId>edu</artifactId>
   <packaging>war</packaging>
   <version>1.0-SNAPSHOT</version>
-  <name>payment Maven Webapp</name>
+  <name>edu Maven Webapp</name>
   <url>http://maven.apache.org</url>
 
   <properties>
@@ -19,11 +19,11 @@
   </properties>
 
   <dependencies>
-    <dependency>
-      <groupId>org.apache.tomcat</groupId>
-      <artifactId>tomcat-servlet-api</artifactId>
-      <version>7.0.64</version>
-    </dependency>
+    <!--<dependency>-->
+      <!--<groupId>org.apache.tomcat</groupId>-->
+      <!--<artifactId>tomcat-servlet-api</artifactId>-->
+      <!--<version>7.0.64</version>-->
+    <!--</dependency>-->
 
     <dependency>
       <groupId>org.springframework</groupId>
@@ -296,7 +296,7 @@
 
 
   <build>
-    <finalName>payment</finalName>
+    <finalName>edu</finalName>
     <plugins>
       <plugin>
         <groupId>org.mybatis.generator</groupId>
